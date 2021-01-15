@@ -9,6 +9,5 @@ public class ReadString {
         String name = key.next();
         System.out.print("Thank you, ");
         System.out.println(name);
-    }
-    
+    }    
 }
