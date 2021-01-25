@@ -125,9 +125,9 @@ public class Calories extends javax.swing.JFrame {
 //        Ingredient = newItem new Ingredient();
 //        newItem.ingredient = TextField1;
         ingredient = jTextField1.getText();
-//        this.quantity = jTextField2.getText();
-//        calories = jTextField3.getText();
-//        portionSize = jTextField4.getText();
+        quantity = jTextField2.getText();
+        calories = jTextField3.getText();
+        portionSize = jTextField4.getText();
         this.calsPer100();
         jTextArea1.setText(jTextField1.getText());
     }//GEN-LAST:event_jButton1ActionPerformed
